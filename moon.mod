@@ -15,7 +15,7 @@ version = "0.1.0"
 
 readme = "README.mbt.md"
 
-repository = ""
+repository = "https://github.com/ppyj663/moonbit-robot-vision-formats"
 
 license = "Apache-2.0"
 
