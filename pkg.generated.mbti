@@ -1,0 +1,238 @@
+// Generated using `moon info`, DON'T EDIT IT
+package "ppyj663/moonbit-robot-vision-formats"
+
+import {
+  "moonbitlang/core/debug",
+}
+
+// Values
+pub fn all_format_specs() -> Array[FormatSpec]
+
+pub fn annotation_spec() -> FormatSpec
+
+pub fn annotations_to_csv(ArrayView[Annotation]) -> String
+
+pub fn camera_info_spec() -> FormatSpec
+
+pub fn camera_info_to_yaml(CameraIntrinsics) -> String
+
+pub fn depth_metadata_spec() -> FormatSpec
+
+pub fn depth_metadata_to_csv(ArrayView[DepthMetadata]) -> String
+
+pub fn filter_annotations_by_confidence(ArrayView[Annotation], Double) -> Array[Annotation]
+
+pub fn filter_annotations_by_label(ArrayView[Annotation], String) -> Array[Annotation]
+
+pub fn focal_length_pair(CameraIntrinsics) -> (Double, Double) raise VisionFormatError
+
+pub fn format_spec_names() -> Array[String]
+
+pub fn image_index_spec() -> FormatSpec
+
+pub fn image_index_summary(ArrayView[ImageFrameRef]) -> String
+
+pub fn image_index_to_csv(ArrayView[ImageFrameRef]) -> String
+
+pub fn image_periods_ns(ArrayView[ImageFrameRef]) -> Array[Int64]
+
+pub fn inspect_stream_quality(ArrayView[ImageFrameRef], CameraIntrinsics?, ArrayView[TrajectorySample], ArrayView[DepthMetadata], ArrayView[Annotation]) -> DatasetQualityReport
+
+pub fn parse_annotation_csv(String) -> Array[Annotation] raise VisionFormatError
+
+pub fn parse_camera_info_yaml(String) -> CameraIntrinsics raise VisionFormatError
+
+pub fn parse_depth_metadata_csv(String) -> Array[DepthMetadata] raise VisionFormatError
+
+pub fn parse_image_index_csv(String) -> Array[ImageFrameRef] raise VisionFormatError
+
+pub fn parse_stamp(StringView, StringView) -> Stamp raise VisionFormatError
+
+pub fn parse_stamp_text(String) -> Stamp raise VisionFormatError
+
+pub fn parse_trajectory_csv(String) -> Array[TrajectorySample] raise VisionFormatError
+
+pub fn sync_report_summary(SyncReport) -> String
+
+pub fn synchronize(ArrayView[ImageFrameRef], ArrayView[TrajectorySample], ArrayView[DepthMetadata], ArrayView[Annotation], tolerance_ns~ : Int64) -> SyncReport
+
+pub fn[T] timestamp_span_ns(ArrayView[T], (T) -> Stamp) -> Int64
+
+pub fn trajectory_bounds(ArrayView[TrajectorySample]) -> (Double, Double, Double, Double) raise VisionFormatError
+
+pub fn trajectory_spec() -> FormatSpec
+
+pub fn trajectory_to_csv(ArrayView[TrajectorySample]) -> String
+
+pub fn validate_annotation(Annotation, Int, Int) -> Unit raise VisionFormatError
+
+pub fn validate_depth_metadata(DepthMetadata) -> Unit raise VisionFormatError
+
+// Errors
+pub(all) suberror VisionFormatError {
+  EmptyInput
+  MissingField(String)
+  InvalidNumber(String)
+  InvalidRow(String)
+  InvalidShape(String)
+  OutOfOrder(String)
+} derive(Eq, @debug.Debug)
+
+// Types and methods
+pub(all) struct Annotation {
+  stamp : Stamp
+  frame_id : String
+  label : String
+  bbox : BoundingBox
+  confidence : Double
+} derive(ToJson, @debug.Debug)
+
+pub(all) struct BoundingBox {
+  x : Double
+  y : Double
+  width : Double
+  height : Double
+} derive(ToJson, @debug.Debug)
+pub fn BoundingBox::area(Self) -> Double
+pub fn BoundingBox::bottom(Self) -> Double
+pub fn BoundingBox::intersection_area(Self, Self) -> Double
+pub fn BoundingBox::iou(Self, Self) -> Double
+pub fn BoundingBox::is_inside_image(Self, Int, Int) -> Bool
+pub fn BoundingBox::right(Self) -> Double
+
+pub(all) struct CameraIntrinsics {
+  width : Int
+  height : Int
+  distortion_model : String
+  k : Array[Double]
+  d : Array[Double]
+  r : Array[Double]
+  p : Array[Double]
+} derive(ToJson, @debug.Debug)
+pub fn CameraIntrinsics::aspect_ratio(Self) -> Double raise VisionFormatError
+pub fn CameraIntrinsics::has_identity_rectification(Self, Double) -> Bool
+pub fn CameraIntrinsics::normalize_pixel(Self, PixelPoint) -> NormalizedPoint raise VisionFormatError
+pub fn CameraIntrinsics::principal_point(Self) -> PixelPoint raise VisionFormatError
+pub fn CameraIntrinsics::project_normalized(Self, NormalizedPoint) -> PixelPoint raise VisionFormatError
+
+pub(all) struct DatasetManifest {
+  name : String
+  root : String
+  image_index : String
+  camera_info : String?
+  trajectory : String?
+  depth_metadata : String?
+  annotations : String?
+} derive(Eq, ToJson, @debug.Debug)
+pub fn DatasetManifest::required_files(Self) -> Array[String]
+pub fn DatasetManifest::to_manifest_csv(Self) -> String
+pub fn DatasetManifest::to_markdown(Self) -> String
+
+pub(all) struct DatasetQualityReport {
+  issues : Array[QualityIssue]
+} derive(Eq, ToJson, @debug.Debug)
+pub fn DatasetQualityReport::is_clean(Self) -> Bool
+pub fn DatasetQualityReport::summary(Self) -> String
+
+pub(all) struct DepthMetadata {
+  stamp : Stamp
+  frame_id : String
+  width : Int
+  height : Int
+  encoding : String
+  unit : String
+  min_depth : Double
+  max_depth : Double
+} derive(ToJson, @debug.Debug)
+
+pub(all) enum FieldKind {
+  IntField
+  FloatField
+  StringField
+  StampField
+  PathField
+} derive(Eq, ToJson, @debug.Debug)
+
+pub(all) struct FieldSpec {
+  name : String
+  kind : FieldKind
+  required : Bool
+  note : String
+} derive(Eq, ToJson, @debug.Debug)
+
+pub(all) struct FormatSpec {
+  name : String
+  media_type : String
+  fields : Array[FieldSpec]
+  description : String
+} derive(Eq, ToJson, @debug.Debug)
+
+pub(all) struct ImageFrameRef {
+  stamp : Stamp
+  frame_id : String
+  path : String
+} derive(Eq, ToJson, @debug.Debug)
+
+pub(all) enum IssueSeverity {
+  Info
+  Warning
+  Error
+} derive(Eq, ToJson, @debug.Debug)
+
+pub(all) struct NormalizedPoint {
+  x : Double
+  y : Double
+} derive(ToJson, @debug.Debug)
+
+pub(all) struct PixelPoint {
+  u : Double
+  v : Double
+} derive(ToJson, @debug.Debug)
+
+pub(all) struct Pose2D {
+  x : Double
+  y : Double
+  theta : Double
+} derive(ToJson, @debug.Debug)
+
+pub(all) struct QualityIssue {
+  severity : IssueSeverity
+  source : String
+  message : String
+} derive(Eq, ToJson, @debug.Debug)
+
+pub(all) struct Stamp {
+  sec : Int
+  nsec : Int
+} derive(Eq, ToJson, @debug.Debug)
+pub fn Stamp::compare(Self, Self) -> Int
+pub fn Stamp::delta_ns(Self, Self) -> Int64
+pub fn Stamp::to_nanoseconds(Self) -> Int64
+pub fn Stamp::to_string(Self) -> String
+
+pub(all) struct SyncMatch {
+  image : ImageFrameRef
+  trajectory : TrajectorySample?
+  depth : DepthMetadata?
+  annotations : Array[Annotation]
+  max_abs_offset_ns : Int64
+} derive(ToJson, @debug.Debug)
+
+pub(all) struct SyncReport {
+  matches : Array[SyncMatch]
+  unmatched_images : Array[ImageFrameRef]
+  unmatched_trajectory : Array[TrajectorySample]
+  unmatched_depth : Array[DepthMetadata]
+  unmatched_annotations : Array[Annotation]
+} derive(ToJson, @debug.Debug)
+
+pub(all) struct TrajectorySample {
+  stamp : Stamp
+  frame_id : String
+  pose : Pose2D
+} derive(ToJson, @debug.Debug)
+
+// Type aliases
+
+// Traits
+
