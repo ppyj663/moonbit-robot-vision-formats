@@ -1,0 +1,7 @@
+.moon/
+_build/
+target/
+*.wasm
+*.js
+*.c
+*.exe
