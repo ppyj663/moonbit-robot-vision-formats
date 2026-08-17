@@ -75,7 +75,7 @@ pub fn inspect_stream_quality(
   }
   for item in depth {
     validate_depth_metadata(item) catch {
-      err => issues.push(issue(Error, "depth", "\{to_repr(err)}"))
+      err => issues.push(issue(Error, "depth", "\{Repr(err)}"))
     }
   }
   for ann in annotations {

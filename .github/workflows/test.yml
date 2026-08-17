@@ -15,7 +15,7 @@ jobs:
         os: [ubuntu-latest, macos-latest, windows-latest]
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           persist-credentials: false
       - name: install-ubuntu
@@ -29,12 +29,12 @@ jobs:
           Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
           irm https://cli.moonbitlang.com/install/powershell.ps1 | iex
           "C:\Users\runneradmin\.moon\bin" | Out-File -FilePath $env:GITHUB_PATH -Append
-      - name: post install
+      - name: install and update stable toolchain
         run: |
           moon version --all
           moon update
       - name: moon check
-        run: moon check --target all --deny-warn --fmt
+        run: moon check --target all --deny-warn
       - name: moon test
         run: moon test --target all
       - name: moon fmt
@@ -43,3 +43,5 @@ jobs:
         run: |
           moon info
           git diff --exit-code
+      - name: native boundary suite
+        run: moon test --target native

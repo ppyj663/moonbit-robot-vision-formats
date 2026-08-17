@@ -57,3 +57,17 @@ git diff --exit-code
 ## License
 
 Apache-2.0.
+
+## Acceptance snapshot
+
+The current implementation contains 8,056 MoonBit source lines, including
+library code and 837 executable boundary/regression tests. It passes the wasm,
+wasm-gc, js and native targets with moon check --target all --deny-warn.
+Reproducible measurements are recorded in docs/benchmark-results.md.
+
+The extended API includes quoted CSV parsing, time-series statistics and
+resampling, polygon and box geometry, camera distortion/undistortion, quality
+rules, detection metrics and deterministic benchmark checksums.
+
+Publishing is performed by .github/workflows/publish.yml; it requires the
+MOONCAKES_TOKEN repository secret and validates the package before moon publish.

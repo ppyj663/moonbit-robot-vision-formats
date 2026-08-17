@@ -1,0 +1,39 @@
+name: Publish Mooncakes package
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "v*.*.*"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - name: Install stable MoonBit toolchain
+        run: |
+          curl -fsSL https://cli.moonbitlang.com/install/unix.sh | bash
+          echo "$HOME/.moon/bin" >> "$GITHUB_PATH"
+          moon version --all
+          moon update
+      - name: Pre-publish validation
+        run: |
+          moon check --target all --deny-warn
+          moon test --target all
+          moon fmt --check
+          moon info
+          git diff --exit-code
+      - name: Publish to Mooncakes
+        env:
+          MOONCAKES_TOKEN: \${{ secrets.MOONCAKES_TOKEN }}
+        run: |
+          test -n "$MOONCAKES_TOKEN"
+          mkdir -p "$HOME/.moon"
+          printf '%s' "$MOONCAKES_TOKEN" > "$HOME/.moon/credentials.json"
+          moon publish
+          rm -f "$HOME/.moon/credentials.json"

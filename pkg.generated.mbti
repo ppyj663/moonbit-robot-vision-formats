@@ -8,17 +8,73 @@ import {
 // Values
 pub fn all_format_specs() -> Array[FormatSpec]
 
+pub fn annotation_area_histogram(ArrayView[Annotation], Int) -> Array[Int]
+
 pub fn annotation_spec() -> FormatSpec
 
 pub fn annotations_to_csv(ArrayView[Annotation]) -> String
+
+pub fn average_precision_at_iou(ArrayView[BoundingBox], ArrayView[BoundingBox], Double) -> Double
+
+pub fn benchmark_csv_parse(String, Int) -> BenchmarkResult raise VisionFormatError
+
+pub fn benchmark_image_summary(ArrayView[ImageFrameRef], Int) -> BenchmarkResult
+
+pub fn benchmark_is_reproducible(BenchmarkResult) -> Bool
+
+pub fn benchmark_result(String, Int, Int, Int64, Int64) -> BenchmarkResult
+
+pub fn benchmark_summary(ArrayView[BenchmarkResult]) -> String
+
+pub fn benchmark_sync(ArrayView[ImageFrameRef], ArrayView[TrajectorySample], ArrayView[DepthMetadata], ArrayView[Annotation], Int64, Int) -> BenchmarkResult
+
+pub fn bounding_box_of_points(ArrayView[Point2D]) -> BoundingBox raise VisionFormatError
+
+pub fn box_recall_at_iou(ArrayView[BoundingBox], ArrayView[BoundingBox], Double) -> Double
 
 pub fn camera_info_spec() -> FormatSpec
 
 pub fn camera_info_to_yaml(CameraIntrinsics) -> String
 
+pub fn camera_is_well_conditioned(CameraIntrinsics, Double) -> Bool raise VisionFormatError
+
+pub fn camera_matrix_determinant(CameraIntrinsics) -> Double raise VisionFormatError
+
+pub fn clamp_box(BoundingBox, Int, Int) -> BoundingBox
+
+pub fn column_index(ArrayView[String], String) -> Int?
+
+pub fn confidence_summary(ArrayView[Annotation]) -> NumericSummary
+
+pub fn csv_escape(String, Char) -> String
+
+pub fn csv_join_row(ArrayView[String], Char) -> String
+
+pub fn csv_numeric_column(ArrayView[Array[String]], Int) -> Array[Double] raise VisionFormatError
+
+pub fn csv_table_to_text(ArrayView[Array[String]], Char) -> String
+
+pub fn[T] deduplicate_stamps(ArrayView[T], (T) -> Stamp) -> Array[T]
+
+pub fn default_csv_options() -> CsvOptions
+
+pub fn default_quality_thresholds() -> QualityThresholds
+
 pub fn depth_metadata_spec() -> FormatSpec
 
 pub fn depth_metadata_to_csv(ArrayView[DepthMetadata]) -> String
+
+pub fn distort_normalized(NormalizedPoint, DistortionCoefficients) -> DistortedPoint
+
+pub fn distortion_coefficients(CameraIntrinsics) -> DistortionCoefficients
+
+pub fn downsample_images(ArrayView[ImageFrameRef], Int) -> Array[ImageFrameRef]
+
+pub fn empty_time_series_stats() -> TimeSeriesStats
+
+pub fn expand_box(BoundingBox, Double) -> BoundingBox
+
+pub fn expected_period_ns(Double) -> Int64 raise VisionFormatError
 
 pub fn filter_annotations_by_confidence(ArrayView[Annotation], Double) -> Array[Annotation]
 
@@ -38,9 +94,35 @@ pub fn image_periods_ns(ArrayView[ImageFrameRef]) -> Array[Int64]
 
 pub fn inspect_stream_quality(ArrayView[ImageFrameRef], CameraIntrinsics?, ArrayView[TrajectorySample], ArrayView[DepthMetadata], ArrayView[Annotation]) -> DatasetQualityReport
 
+pub fn interpolate_angle(Double, Double, Double) -> Double
+
+pub fn interpolate_point(Sample2D, Sample2D, Stamp) -> Point2D
+
+pub fn interpolate_pose(TrajectorySample, TrajectorySample, Stamp) -> Pose2D
+
+pub fn interpolate_trajectory(ArrayView[TrajectorySample], Stamp) -> TrajectorySample?
+
+pub fn label_counts(ArrayView[Annotation]) -> Map[String, Int]
+
+pub fn mean_absolute_error(ArrayView[Double], ArrayView[Double]) -> Double raise VisionFormatError
+
+pub fn median(ArrayView[Double]) -> Double raise VisionFormatError
+
+pub fn merge_sorted_images(ArrayView[ImageFrameRef], ArrayView[ImageFrameRef]) -> Array[ImageFrameRef]
+
+pub fn missing_periods_ns(ArrayView[Int64], Int64, Int64) -> Int
+
+pub fn[T] nearest_stamp_index(Stamp, ArrayView[T], (T) -> Stamp) -> Int?
+
+pub fn numeric_summary(ArrayView[Double]) -> NumericSummary
+
 pub fn parse_annotation_csv(String) -> Array[Annotation] raise VisionFormatError
 
 pub fn parse_camera_info_yaml(String) -> CameraIntrinsics raise VisionFormatError
+
+pub fn parse_csv_row(String, CsvOptions) -> Array[String] raise CsvError
+
+pub fn parse_csv_table(String, CsvOptions) -> Array[Array[String]] raise CsvError
 
 pub fn parse_depth_metadata_csv(String) -> Array[DepthMetadata] raise VisionFormatError
 
@@ -52,11 +134,45 @@ pub fn parse_stamp_text(String) -> Stamp raise VisionFormatError
 
 pub fn parse_trajectory_csv(String) -> Array[TrajectorySample] raise VisionFormatError
 
+pub fn percentile(ArrayView[Double], Double) -> Double raise VisionFormatError
+
+pub fn period_jitter_ns(ArrayView[Int64]) -> (Int64, Int64, Double)
+
+pub fn point_in_polygon(Point2D, ArrayView[Point2D]) -> Bool
+
+pub fn polygon_area(ArrayView[Point2D]) -> Double
+
+pub fn polygon_is_clockwise(ArrayView[Point2D]) -> Bool
+
+pub fn polygon_signed_area(ArrayView[Point2D]) -> Double
+
+pub fn precision_recall_f1(Int, Int, Int) -> (Double, Double, Double)
+
+pub fn project_distorted(CameraIntrinsics, NormalizedPoint) -> PixelPoint raise VisionFormatError
+
+pub fn quality_score(ArrayView[RuleViolation]) -> Double
+
+pub fn require_rectangular(ArrayView[Array[String]]) -> Int raise CsvError
+
+pub fn resample_trajectory(ArrayView[TrajectorySample], Stamp, Stamp, Int64) -> Array[TrajectorySample]
+
+pub fn root_mean_square_error(ArrayView[Double], ArrayView[Double]) -> Double raise VisionFormatError
+
+pub fn rows_with_column(ArrayView[Array[String]], Int, String) -> Array[Array[String]]
+
+pub fn select_columns(ArrayView[String], ArrayView[Int]) -> Array[String]
+
+pub fn[T] split_by_gap(ArrayView[T], (T) -> Stamp, Int64) -> Array[Array[T]]
+
 pub fn sync_report_summary(SyncReport) -> String
 
 pub fn synchronize(ArrayView[ImageFrameRef], ArrayView[TrajectorySample], ArrayView[DepthMetadata], ArrayView[Annotation], tolerance_ns~ : Int64) -> SyncReport
 
+pub fn[T] time_series_stats(ArrayView[T], (T) -> Stamp) -> TimeSeriesStats
+
 pub fn[T] timestamp_span_ns(ArrayView[T], (T) -> Stamp) -> Int64
+
+pub fn[T] timestamps_in_window(Stamp, Stamp, ArrayView[T], (T) -> Stamp) -> Array[T]
 
 pub fn trajectory_bounds(ArrayView[TrajectorySample]) -> (Double, Double, Double, Double) raise VisionFormatError
 
@@ -64,11 +180,38 @@ pub fn trajectory_spec() -> FormatSpec
 
 pub fn trajectory_to_csv(ArrayView[TrajectorySample]) -> String
 
+pub fn undistort_normalized(DistortedPoint, DistortionCoefficients, Int) -> NormalizedPoint
+
+pub fn unique_column_values(ArrayView[Array[String]], Int) -> Array[String]
+
+pub fn unproject_distorted(CameraIntrinsics, PixelPoint, Int) -> NormalizedPoint raise VisionFormatError
+
 pub fn validate_annotation(Annotation, Int, Int) -> Unit raise VisionFormatError
+
+pub fn validate_annotation_stream(ArrayView[Annotation], Int, Int, QualityThresholds) -> Array[RuleViolation]
+
+pub fn validate_camera(CameraIntrinsics?, QualityThresholds) -> Array[RuleViolation]
 
 pub fn validate_depth_metadata(DepthMetadata) -> Unit raise VisionFormatError
 
+pub fn validate_depth_stream(ArrayView[DepthMetadata], QualityThresholds) -> Array[RuleViolation]
+
+pub fn validate_image_stream(ArrayView[ImageFrameRef], QualityThresholds) -> Array[RuleViolation]
+
+pub fn validate_trajectory_stream(ArrayView[TrajectorySample], QualityThresholds) -> Array[RuleViolation]
+
+pub fn violations_by_code(ArrayView[RuleViolation]) -> Map[String, Int]
+
+pub fn violations_to_markdown(ArrayView[RuleViolation]) -> String
+
 // Errors
+pub(all) suberror CsvError {
+  EmptyRow
+  UnterminatedQuote(Int)
+  UnexpectedQuote(Int)
+  InvalidColumnCount(Int, Int, Int)
+} derive(Eq, @debug.Debug)
+
 pub(all) suberror VisionFormatError {
   EmptyInput
   MissingField(String)
@@ -85,6 +228,15 @@ pub(all) struct Annotation {
   label : String
   bbox : BoundingBox
   confidence : Double
+} derive(ToJson, @debug.Debug)
+
+pub(all) struct BenchmarkResult {
+  name : String
+  rows : Int
+  iterations : Int
+  elapsed_ns : Int64
+  rows_per_second : Double
+  checksum : Int64
 } derive(ToJson, @debug.Debug)
 
 pub(all) struct BoundingBox {
@@ -115,6 +267,12 @@ pub fn CameraIntrinsics::normalize_pixel(Self, PixelPoint) -> NormalizedPoint ra
 pub fn CameraIntrinsics::principal_point(Self) -> PixelPoint raise VisionFormatError
 pub fn CameraIntrinsics::project_normalized(Self, NormalizedPoint) -> PixelPoint raise VisionFormatError
 
+pub(all) struct CsvOptions {
+  delimiter : Char
+  trim_fields : Bool
+  allow_comments : Bool
+} derive(Eq, @debug.Debug)
+
 pub(all) struct DatasetManifest {
   name : String
   root : String
@@ -143,6 +301,19 @@ pub(all) struct DepthMetadata {
   unit : String
   min_depth : Double
   max_depth : Double
+} derive(ToJson, @debug.Debug)
+
+pub(all) struct DistortedPoint {
+  x : Double
+  y : Double
+} derive(ToJson, @debug.Debug)
+
+pub(all) struct DistortionCoefficients {
+  k1 : Double
+  k2 : Double
+  p1 : Double
+  p2 : Double
+  k3 : Double
 } derive(ToJson, @debug.Debug)
 
 pub(all) enum FieldKind {
@@ -184,10 +355,25 @@ pub(all) struct NormalizedPoint {
   y : Double
 } derive(ToJson, @debug.Debug)
 
+pub(all) struct NumericSummary {
+  count : Int
+  min : Double
+  max : Double
+  mean : Double
+  variance : Double
+} derive(ToJson, @debug.Debug)
+
 pub(all) struct PixelPoint {
   u : Double
   v : Double
 } derive(ToJson, @debug.Debug)
+
+pub(all) struct Point2D {
+  x : Double
+  y : Double
+} derive(ToJson, @debug.Debug)
+pub fn Point2D::distance(Self, Self) -> Double
+pub fn Point2D::lerp(Self, Self, Double) -> Self
 
 pub(all) struct Pose2D {
   x : Double
@@ -200,6 +386,46 @@ pub(all) struct QualityIssue {
   source : String
   message : String
 } derive(Eq, ToJson, @debug.Debug)
+
+pub(all) enum QualityRuleCode {
+  EmptyStream
+  NonMonotonic
+  LargeTimestampGap
+  InvalidDimensions
+  InvalidRange
+  MissingCalibration
+  LowConfidence
+  OutOfBounds
+  SparseStream
+} derive(Eq, ToJson, @debug.Debug)
+
+pub(all) struct QualityThresholds {
+  max_gap_ns : Int64
+  min_confidence : Double
+  max_confidence : Double
+  min_depth : Double
+  max_depth : Double
+  require_camera : Bool
+} derive(ToJson, @debug.Debug)
+
+pub(all) struct RuleViolation {
+  code : QualityRuleCode
+  source : String
+  row : Int
+  detail : String
+} derive(ToJson, @debug.Debug)
+
+pub(all) struct Sample2D {
+  stamp : Stamp
+  value : Point2D
+} derive(ToJson, @debug.Debug)
+
+pub(all) struct Segment2D {
+  start : Point2D
+  end : Point2D
+} derive(ToJson, @debug.Debug)
+pub fn Segment2D::length(Self) -> Double
+pub fn Segment2D::point_at(Self, Double) -> Point2D
 
 pub(all) struct Stamp {
   sec : Int
@@ -226,6 +452,17 @@ pub(all) struct SyncReport {
   unmatched_annotations : Array[Annotation]
 } derive(ToJson, @debug.Debug)
 
+pub(all) struct TimeSeriesStats {
+  count : Int
+  first : Stamp?
+  last : Stamp?
+  span_ns : Int64
+  min_period_ns : Int64?
+  max_period_ns : Int64?
+  mean_period_ns : Double
+  monotonic : Bool
+} derive(ToJson, @debug.Debug)
+
 pub(all) struct TrajectorySample {
   stamp : Stamp
   frame_id : String
@@ -235,4 +472,3 @@ pub(all) struct TrajectorySample {
 // Type aliases
 
 // Traits
-
