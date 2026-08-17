@@ -60,14 +60,15 @@ Apache-2.0.
 
 ## Acceptance snapshot
 
-The current implementation contains 8,056 MoonBit source lines, including
-library code and 837 executable boundary/regression tests. It passes the wasm,
+The current implementation contains 24,503 MoonBit source lines: 18,965 lines
+of library code and 5,538 lines of executable tests. It passes the wasm,
 wasm-gc, js and native targets with moon check --target all --deny-warn.
 Reproducible measurements are recorded in docs/benchmark-results.md.
 
 The extended API includes quoted CSV parsing, time-series statistics and
 resampling, polygon and box geometry, camera distortion/undistortion, quality
-rules, detection metrics and deterministic benchmark checksums.
+rules, detection metrics, deterministic benchmark checksums and reusable
+application query modules for every dataset stream.
 
 Publishing is performed by .github/workflows/publish.yml; it requires the
 MOONCAKES_TOKEN repository secret and validates the package before moon publish.

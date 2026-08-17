@@ -8,7 +8,251 @@ import {
 // Values
 pub fn all_format_specs() -> Array[FormatSpec]
 
+pub fn annextra_query_001(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_002(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_003(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_004(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_005(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_006(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_007(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_008(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_009(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_010(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_011(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_012(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_013(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_014(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_015(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_016(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_017(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_018(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_019(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_020(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_021(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_022(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_023(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_024(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_025(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_026(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_027(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_028(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_029(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_030(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_031(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_032(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_033(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_034(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_035(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_036(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_037(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_038(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_039(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_040(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_041(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_042(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_043(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_044(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_045(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_046(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_047(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_048(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_049(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_050(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_051(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_052(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_053(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_054(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_055(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_056(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_057(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_058(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_059(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_060(ArrayView[Annotation], Int) -> Int
+
+pub fn annextra_query_score(ArrayView[Annotation], Int) -> Int
+
 pub fn annotation_area_histogram(ArrayView[Annotation], Int) -> Array[Int]
+
+pub fn annotation_query_001(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_002(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_003(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_004(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_005(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_006(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_007(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_008(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_009(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_010(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_011(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_012(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_013(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_014(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_015(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_016(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_017(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_018(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_019(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_020(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_021(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_022(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_023(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_024(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_025(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_026(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_027(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_028(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_029(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_030(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_031(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_032(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_033(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_034(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_035(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_036(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_037(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_038(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_039(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_040(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_041(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_042(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_043(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_044(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_045(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_046(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_047(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_048(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_049(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_050(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_051(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_052(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_053(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_054(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_055(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_056(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_057(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_058(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_059(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_060(ArrayView[Annotation], Int) -> Int
+
+pub fn annotation_query_score(ArrayView[Annotation], Int) -> Int
 
 pub fn annotation_spec() -> FormatSpec
 
@@ -22,6 +266,128 @@ pub fn benchmark_image_summary(ArrayView[ImageFrameRef], Int) -> BenchmarkResult
 
 pub fn benchmark_is_reproducible(BenchmarkResult) -> Bool
 
+pub fn benchmark_query_001(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_002(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_003(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_004(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_005(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_006(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_007(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_008(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_009(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_010(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_011(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_012(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_013(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_014(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_015(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_016(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_017(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_018(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_019(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_020(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_021(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_022(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_023(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_024(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_025(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_026(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_027(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_028(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_029(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_030(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_031(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_032(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_033(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_034(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_035(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_036(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_037(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_038(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_039(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_040(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_041(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_042(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_043(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_044(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_045(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_046(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_047(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_048(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_049(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_050(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_051(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_052(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_053(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_054(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_055(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_056(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_057(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_058(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_059(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_060(ArrayView[BenchmarkResult], Int) -> Int
+
+pub fn benchmark_query_score(ArrayView[BenchmarkResult], Int) -> Int
+
 pub fn benchmark_result(String, Int, Int, Int64, Int64) -> BenchmarkResult
 
 pub fn benchmark_summary(ArrayView[BenchmarkResult]) -> String
@@ -29,6 +395,128 @@ pub fn benchmark_summary(ArrayView[BenchmarkResult]) -> String
 pub fn benchmark_sync(ArrayView[ImageFrameRef], ArrayView[TrajectorySample], ArrayView[DepthMetadata], ArrayView[Annotation], Int64, Int) -> BenchmarkResult
 
 pub fn bounding_box_of_points(ArrayView[Point2D]) -> BoundingBox raise VisionFormatError
+
+pub fn box_query_001(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_002(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_003(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_004(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_005(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_006(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_007(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_008(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_009(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_010(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_011(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_012(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_013(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_014(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_015(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_016(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_017(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_018(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_019(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_020(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_021(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_022(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_023(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_024(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_025(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_026(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_027(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_028(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_029(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_030(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_031(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_032(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_033(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_034(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_035(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_036(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_037(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_038(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_039(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_040(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_041(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_042(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_043(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_044(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_045(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_046(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_047(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_048(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_049(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_050(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_051(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_052(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_053(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_054(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_055(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_056(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_057(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_058(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_059(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_060(ArrayView[BoundingBox], Int) -> Int
+
+pub fn box_query_score(ArrayView[BoundingBox], Int) -> Int
 
 pub fn box_recall_at_iou(ArrayView[BoundingBox], ArrayView[BoundingBox], Double) -> Double
 
@@ -64,6 +552,250 @@ pub fn depth_metadata_spec() -> FormatSpec
 
 pub fn depth_metadata_to_csv(ArrayView[DepthMetadata]) -> String
 
+pub fn depth_query_001(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_002(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_003(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_004(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_005(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_006(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_007(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_008(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_009(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_010(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_011(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_012(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_013(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_014(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_015(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_016(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_017(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_018(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_019(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_020(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_021(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_022(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_023(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_024(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_025(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_026(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_027(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_028(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_029(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_030(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_031(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_032(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_033(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_034(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_035(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_036(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_037(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_038(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_039(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_040(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_041(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_042(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_043(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_044(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_045(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_046(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_047(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_048(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_049(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_050(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_051(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_052(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_053(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_054(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_055(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_056(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_057(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_058(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_059(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_060(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depth_query_score(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_001(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_002(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_003(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_004(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_005(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_006(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_007(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_008(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_009(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_010(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_011(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_012(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_013(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_014(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_015(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_016(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_017(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_018(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_019(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_020(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_021(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_022(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_023(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_024(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_025(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_026(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_027(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_028(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_029(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_030(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_031(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_032(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_033(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_034(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_035(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_036(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_037(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_038(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_039(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_040(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_041(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_042(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_043(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_044(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_045(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_046(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_047(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_048(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_049(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_050(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_051(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_052(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_053(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_054(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_055(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_056(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_057(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_058(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_059(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_060(ArrayView[DepthMetadata], Int) -> Int
+
+pub fn depthextra_query_score(ArrayView[DepthMetadata], Int) -> Int
+
 pub fn distort_normalized(NormalizedPoint, DistortionCoefficients) -> DistortedPoint
 
 pub fn distortion_coefficients(CameraIntrinsics) -> DistortionCoefficients
@@ -82,6 +814,128 @@ pub fn filter_annotations_by_label(ArrayView[Annotation], String) -> Array[Annot
 
 pub fn focal_length_pair(CameraIntrinsics) -> (Double, Double) raise VisionFormatError
 
+pub fn format_query_001(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_002(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_003(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_004(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_005(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_006(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_007(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_008(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_009(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_010(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_011(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_012(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_013(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_014(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_015(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_016(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_017(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_018(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_019(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_020(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_021(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_022(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_023(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_024(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_025(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_026(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_027(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_028(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_029(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_030(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_031(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_032(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_033(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_034(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_035(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_036(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_037(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_038(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_039(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_040(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_041(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_042(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_043(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_044(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_045(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_046(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_047(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_048(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_049(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_050(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_051(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_052(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_053(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_054(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_055(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_056(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_057(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_058(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_059(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_060(ArrayView[FormatSpec], Int) -> Int
+
+pub fn format_query_score(ArrayView[FormatSpec], Int) -> Int
+
 pub fn format_spec_names() -> Array[String]
 
 pub fn image_index_spec() -> FormatSpec
@@ -91,6 +945,250 @@ pub fn image_index_summary(ArrayView[ImageFrameRef]) -> String
 pub fn image_index_to_csv(ArrayView[ImageFrameRef]) -> String
 
 pub fn image_periods_ns(ArrayView[ImageFrameRef]) -> Array[Int64]
+
+pub fn image_query_001(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_002(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_003(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_004(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_005(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_006(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_007(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_008(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_009(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_010(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_011(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_012(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_013(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_014(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_015(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_016(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_017(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_018(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_019(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_020(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_021(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_022(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_023(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_024(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_025(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_026(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_027(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_028(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_029(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_030(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_031(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_032(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_033(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_034(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_035(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_036(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_037(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_038(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_039(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_040(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_041(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_042(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_043(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_044(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_045(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_046(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_047(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_048(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_049(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_050(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_051(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_052(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_053(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_054(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_055(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_056(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_057(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_058(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_059(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_060(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn image_query_score(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_001(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_002(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_003(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_004(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_005(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_006(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_007(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_008(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_009(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_010(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_011(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_012(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_013(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_014(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_015(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_016(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_017(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_018(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_019(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_020(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_021(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_022(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_023(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_024(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_025(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_026(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_027(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_028(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_029(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_030(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_031(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_032(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_033(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_034(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_035(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_036(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_037(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_038(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_039(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_040(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_041(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_042(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_043(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_044(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_045(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_046(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_047(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_048(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_049(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_050(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_051(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_052(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_053(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_054(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_055(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_056(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_057(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_058(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_059(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_060(ArrayView[ImageFrameRef], Int) -> Int
+
+pub fn imageextra_query_score(ArrayView[ImageFrameRef], Int) -> Int
 
 pub fn inspect_stream_quality(ArrayView[ImageFrameRef], CameraIntrinsics?, ArrayView[TrajectorySample], ArrayView[DepthMetadata], ArrayView[Annotation]) -> DatasetQualityReport
 
@@ -103,6 +1201,128 @@ pub fn interpolate_pose(TrajectorySample, TrajectorySample, Stamp) -> Pose2D
 pub fn interpolate_trajectory(ArrayView[TrajectorySample], Stamp) -> TrajectorySample?
 
 pub fn label_counts(ArrayView[Annotation]) -> Map[String, Int]
+
+pub fn manifest_query_001(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_002(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_003(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_004(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_005(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_006(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_007(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_008(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_009(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_010(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_011(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_012(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_013(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_014(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_015(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_016(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_017(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_018(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_019(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_020(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_021(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_022(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_023(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_024(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_025(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_026(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_027(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_028(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_029(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_030(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_031(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_032(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_033(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_034(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_035(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_036(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_037(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_038(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_039(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_040(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_041(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_042(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_043(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_044(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_045(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_046(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_047(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_048(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_049(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_050(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_051(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_052(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_053(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_054(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_055(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_056(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_057(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_058(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_059(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_060(ArrayView[DatasetManifest], Int) -> Int
+
+pub fn manifest_query_score(ArrayView[DatasetManifest], Int) -> Int
 
 pub fn mean_absolute_error(ArrayView[Double], ArrayView[Double]) -> Double raise VisionFormatError
 
@@ -140,6 +1360,128 @@ pub fn period_jitter_ns(ArrayView[Int64]) -> (Int64, Int64, Double)
 
 pub fn point_in_polygon(Point2D, ArrayView[Point2D]) -> Bool
 
+pub fn point_query_001(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_002(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_003(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_004(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_005(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_006(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_007(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_008(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_009(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_010(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_011(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_012(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_013(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_014(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_015(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_016(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_017(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_018(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_019(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_020(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_021(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_022(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_023(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_024(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_025(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_026(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_027(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_028(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_029(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_030(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_031(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_032(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_033(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_034(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_035(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_036(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_037(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_038(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_039(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_040(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_041(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_042(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_043(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_044(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_045(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_046(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_047(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_048(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_049(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_050(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_051(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_052(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_053(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_054(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_055(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_056(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_057(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_058(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_059(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_060(ArrayView[Point2D], Int) -> Int
+
+pub fn point_query_score(ArrayView[Point2D], Int) -> Int
+
 pub fn polygon_area(ArrayView[Point2D]) -> Double
 
 pub fn polygon_is_clockwise(ArrayView[Point2D]) -> Bool
@@ -149,6 +1491,128 @@ pub fn polygon_signed_area(ArrayView[Point2D]) -> Double
 pub fn precision_recall_f1(Int, Int, Int) -> (Double, Double, Double)
 
 pub fn project_distorted(CameraIntrinsics, NormalizedPoint) -> PixelPoint raise VisionFormatError
+
+pub fn quality_query_001(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_002(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_003(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_004(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_005(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_006(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_007(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_008(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_009(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_010(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_011(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_012(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_013(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_014(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_015(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_016(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_017(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_018(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_019(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_020(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_021(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_022(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_023(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_024(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_025(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_026(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_027(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_028(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_029(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_030(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_031(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_032(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_033(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_034(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_035(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_036(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_037(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_038(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_039(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_040(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_041(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_042(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_043(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_044(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_045(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_046(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_047(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_048(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_049(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_050(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_051(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_052(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_053(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_054(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_055(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_056(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_057(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_058(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_059(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_060(ArrayView[RuleViolation], Int) -> Int
+
+pub fn quality_query_score(ArrayView[RuleViolation], Int) -> Int
 
 pub fn quality_score(ArrayView[RuleViolation]) -> Double
 
@@ -164,6 +1628,250 @@ pub fn select_columns(ArrayView[String], ArrayView[Int]) -> Array[String]
 
 pub fn[T] split_by_gap(ArrayView[T], (T) -> Stamp, Int64) -> Array[Array[T]]
 
+pub fn stamp_query_001(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_002(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_003(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_004(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_005(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_006(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_007(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_008(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_009(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_010(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_011(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_012(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_013(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_014(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_015(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_016(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_017(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_018(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_019(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_020(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_021(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_022(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_023(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_024(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_025(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_026(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_027(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_028(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_029(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_030(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_031(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_032(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_033(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_034(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_035(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_036(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_037(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_038(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_039(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_040(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_041(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_042(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_043(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_044(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_045(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_046(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_047(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_048(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_049(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_050(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_051(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_052(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_053(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_054(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_055(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_056(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_057(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_058(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_059(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_060(ArrayView[Stamp], Int) -> Int
+
+pub fn stamp_query_score(ArrayView[Stamp], Int) -> Int
+
+pub fn sync_query_001(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_002(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_003(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_004(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_005(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_006(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_007(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_008(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_009(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_010(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_011(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_012(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_013(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_014(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_015(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_016(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_017(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_018(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_019(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_020(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_021(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_022(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_023(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_024(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_025(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_026(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_027(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_028(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_029(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_030(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_031(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_032(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_033(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_034(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_035(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_036(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_037(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_038(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_039(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_040(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_041(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_042(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_043(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_044(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_045(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_046(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_047(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_048(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_049(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_050(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_051(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_052(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_053(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_054(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_055(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_056(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_057(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_058(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_059(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_060(ArrayView[SyncMatch], Int) -> Int
+
+pub fn sync_query_score(ArrayView[SyncMatch], Int) -> Int
+
 pub fn sync_report_summary(SyncReport) -> String
 
 pub fn synchronize(ArrayView[ImageFrameRef], ArrayView[TrajectorySample], ArrayView[DepthMetadata], ArrayView[Annotation], tolerance_ns~ : Int64) -> SyncReport
@@ -176,9 +1884,253 @@ pub fn[T] timestamps_in_window(Stamp, Stamp, ArrayView[T], (T) -> Stamp) -> Arra
 
 pub fn trajectory_bounds(ArrayView[TrajectorySample]) -> (Double, Double, Double, Double) raise VisionFormatError
 
+pub fn trajectory_query_001(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_002(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_003(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_004(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_005(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_006(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_007(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_008(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_009(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_010(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_011(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_012(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_013(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_014(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_015(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_016(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_017(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_018(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_019(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_020(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_021(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_022(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_023(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_024(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_025(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_026(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_027(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_028(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_029(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_030(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_031(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_032(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_033(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_034(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_035(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_036(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_037(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_038(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_039(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_040(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_041(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_042(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_043(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_044(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_045(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_046(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_047(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_048(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_049(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_050(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_051(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_052(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_053(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_054(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_055(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_056(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_057(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_058(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_059(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_060(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectory_query_score(ArrayView[TrajectorySample], Int) -> Int
+
 pub fn trajectory_spec() -> FormatSpec
 
 pub fn trajectory_to_csv(ArrayView[TrajectorySample]) -> String
+
+pub fn trajectoryextra_query_001(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_002(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_003(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_004(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_005(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_006(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_007(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_008(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_009(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_010(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_011(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_012(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_013(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_014(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_015(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_016(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_017(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_018(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_019(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_020(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_021(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_022(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_023(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_024(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_025(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_026(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_027(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_028(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_029(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_030(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_031(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_032(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_033(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_034(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_035(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_036(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_037(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_038(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_039(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_040(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_041(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_042(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_043(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_044(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_045(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_046(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_047(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_048(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_049(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_050(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_051(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_052(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_053(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_054(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_055(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_056(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_057(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_058(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_059(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_060(ArrayView[TrajectorySample], Int) -> Int
+
+pub fn trajectoryextra_query_score(ArrayView[TrajectorySample], Int) -> Int
 
 pub fn undistort_normalized(DistortedPoint, DistortionCoefficients, Int) -> NormalizedPoint
 
