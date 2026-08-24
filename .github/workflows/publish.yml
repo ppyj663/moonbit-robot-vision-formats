@@ -21,6 +21,19 @@ jobs:
           echo "$HOME/.moon/bin" >> "$GITHUB_PATH"
           moon version --all
           moon update
+          raw="$(moonc --version)"
+          if [[ "$raw" =~ moonc\ v([0-9]+)\.([0-9]+)\.([0-9]+) ]]; then
+            major="${BASH_REMATCH[1]}"
+            minor="${BASH_REMATCH[2]}"
+            patch="${BASH_REMATCH[3]}"
+          else
+            echo "Unable to parse compiler version: $raw" >&2
+            exit 1
+          fi
+          if (( major < 0 || (major == 0 && minor < 10) || (major == 0 && minor == 10 && patch < 9) )); then
+            echo "MoonBit compiler >= 0.10.9 is required; found $raw" >&2
+            exit 1
+          fi
       - name: Pre-publish validation
         run: |
           moon check --target all --deny-warn
