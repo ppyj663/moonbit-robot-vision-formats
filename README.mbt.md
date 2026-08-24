@@ -36,7 +36,7 @@ test "README quick start" {
 
 ## Repository Notes
 
-This repository was created as an original MoonBit OSC2026 ecosystem library.
+This repository is an original MoonBit application-ecosystem library.
 Before implementation, the package space on Mooncakes was checked with robotics,
 vision, camera, depth, CSV and YAML keywords. No mature MoonBit package with this
 same offline robotics vision bridge scope was found.
@@ -58,17 +58,9 @@ git diff --exit-code
 
 Apache-2.0.
 
-## Acceptance snapshot
-
-The current implementation contains 24,503 MoonBit source lines: 18,965 lines
-of library code and 5,538 lines of executable tests. It passes the wasm,
-wasm-gc, js and native targets with moon check --target all --deny-warn.
-Reproducible measurements are recorded in docs/benchmark-results.md.
-
 The extended API includes quoted CSV parsing, time-series statistics and
 resampling, polygon and box geometry, camera distortion/undistortion, quality
-rules, detection metrics, deterministic benchmark checksums and reusable
-application query modules for every dataset stream.
+rules and deterministic benchmark checksums.
 
-Publishing is performed by .github/workflows/publish.yml; it requires the
-MOONCAKES_TOKEN repository secret and validates the package before moon publish.
+The package is published to Mooncakes. Publishing from CI is available through
+the guarded workflow in .github/workflows/publish.yml.

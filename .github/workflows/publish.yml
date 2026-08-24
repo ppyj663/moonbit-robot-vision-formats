@@ -24,13 +24,13 @@ jobs:
       - name: Pre-publish validation
         run: |
           moon check --target all --deny-warn
-          moon test --target all
+          moon test --target all --deny-warn
           moon fmt --check
           moon info
           git diff --exit-code
       - name: Publish to Mooncakes
         env:
-          MOONCAKES_TOKEN: \${{ secrets.MOONCAKES_TOKEN }}
+          MOONCAKES_TOKEN: ${{ secrets.MOONCAKES_TOKEN }}
         run: |
           test -n "$MOONCAKES_TOKEN"
           mkdir -p "$HOME/.moon"

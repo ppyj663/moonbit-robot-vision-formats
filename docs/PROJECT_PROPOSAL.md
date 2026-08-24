@@ -1,4 +1,4 @@
-# moonbit-robot-vision-formats 项目申报书
+# moonbit-robot-vision-formats 项目说明
 
 ## 项目概述
 
@@ -18,8 +18,8 @@ MoonBit 生态中已有通用语言、构建和包管理基础，但面向机器
 
 ## 开源开发与质量保障
 
-项目采用 Apache-2.0 许可证，公开维护 README、设计说明、Mooncakes 调研记录、OSC2026 自查清单、示例数据和 changelog。GitHub 与 GitLink 分别使用对应账号独立提交历史，避免虚拟贡献者；有效提交次数均超过 10 次。CI 参考 MoonBit community 模板，包含多平台安装、`moon check --target all --deny-warn --fmt`、`moon test --target all`、`moon fmt --check` 和 `moon info` 后的 diff 检查。本地已通过 wasm、wasm-gc、js 目标测试，Mooncakes 发布预检和正式发布均成功。
+项目采用 Apache-2.0 许可证，公开维护 README、设计说明、Mooncakes 调研记录、示例数据和 changelog。CI 参考 MoonBit community 模板，包含多平台安装、`moon check --target all --deny-warn`、`moon test --target all`、`moon fmt --check` 和 `moon info` 后的 diff 检查。本地已通过 wasm、wasm-gc、js 和 native 目标测试，Mooncakes 发布预检成功。
 
 ## 预期成果
 
-最终成果包括一个可在 Mooncakes 获取的 MoonBit 包、可运行测试套件、清晰 README、生成接口文件、CLI 示例和一份面向评审的项目说明。验收时可展示从图像索引、轨迹、深度元信息和标注 CSV 构造同步报告的完整流程，并说明该库如何作为 MoonBit 机器人视觉数据工具链的基础组件继续演进。
+最终成果包括一个可在 Mooncakes 获取的 MoonBit 包、可运行测试套件、清晰 README、生成接口文件、CLI 示例和一份项目说明。使用者可以从图像索引、轨迹、深度元信息和标注 CSV 构造同步报告，并将该库作为 MoonBit 机器人视觉数据工具链的基础组件继续演进。
