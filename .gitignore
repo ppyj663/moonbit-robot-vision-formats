@@ -1,4 +1,5 @@
 .moon/
+.repos/
 _build/
 target/
 *.wasm
